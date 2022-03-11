@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "dQyqOuw+fOMmj2gu8KBabLoi3NZT+vchycL53Tps3frwSoPxw78N5Od3Ne32GKK1ltPfXo3eWbosy9Bm6wX6ng==",
+  "success": true,
+  "projectFilePath": "D:\\3bStudio\\Sandbox\\3bs-spark-training\\src\\CsharpSpark\\BlackBlueBeesStudio.Data.Csharp.Spark\\FirstSparkProgram.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\WilliamHARY\\.nuget\\packages\\apache.arrow\\2.0.0\\apache.arrow.2.0.0.nupkg.sha512",
+    "C:\\Users\\WilliamHARY\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\WilliamHARY\\.nuget\\packages\\microsoft.data.analysis\\0.18.0\\microsoft.data.analysis.0.18.0.nupkg.sha512",
+    "C:\\Users\\WilliamHARY\\.nuget\\packages\\microsoft.ml.dataview\\1.6.0\\microsoft.ml.dataview.1.6.0.nupkg.sha512",
+    "C:\\Users\\WilliamHARY\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\WilliamHARY\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\WilliamHARY\\.nuget\\packages\\microsoft.spark\\2.1.0\\microsoft.spark.2.1.0.nupkg.sha512",
+    "C:\\Users\\WilliamHARY\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\WilliamHARY\\.nuget\\packages\\razorvine.pyrolite\\4.26.0\\razorvine.pyrolite.4.26.0.nupkg.sha512",
+    "C:\\Users\\WilliamHARY\\.nuget\\packages\\razorvine.serpent\\1.29.0\\razorvine.serpent.1.29.0.nupkg.sha512",
+    "C:\\Users\\WilliamHARY\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
+    "C:\\Users\\WilliamHARY\\.nuget\\packages\\system.collections.immutable\\1.5.0\\system.collections.immutable.1.5.0.nupkg.sha512",
+    "C:\\Users\\WilliamHARY\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\WilliamHARY\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\WilliamHARY\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.0\\system.runtime.compilerservices.unsafe.4.7.0.nupkg.sha512",
+    "C:\\Users\\WilliamHARY\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\WilliamHARY\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.2\\system.threading.tasks.extensions.4.5.2.nupkg.sha512"
+  ],
+  "logs": []
+}

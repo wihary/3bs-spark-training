@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "5c44daf2-34cd-4814-8ea5-4a8c3403f1e3": {
+      "ProjectGuid": "5c44daf2-34cd-4814-8ea5-4a8c3403f1e3",
+      "DisplayName": "ScalaSparkProgram",
+      "ColorIndex": 0
+    },
+    "72c4a6a3-0182-4c5e-81a4-61b4a4459cd0": {
+      "ProjectGuid": "72c4a6a3-0182-4c5e-81a4-61b4a4459cd0",
+      "DisplayName": "BlackBlueBeesStudio.Data.TwitterStreaming",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

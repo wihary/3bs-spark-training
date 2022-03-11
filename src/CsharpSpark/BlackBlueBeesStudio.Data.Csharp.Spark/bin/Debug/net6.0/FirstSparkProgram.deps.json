@@ -1,0 +1,252 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "FirstSparkProgram/1.0.0": {
+        "dependencies": {
+          "Microsoft.Spark": "2.1.0"
+        },
+        "runtime": {
+          "FirstSparkProgram.dll": {}
+        }
+      },
+      "Apache.Arrow/2.0.0": {
+        "dependencies": {
+          "System.Buffers": "4.5.0",
+          "System.Memory": "4.5.3",
+          "System.Runtime.CompilerServices.Unsafe": "4.7.0",
+          "System.Threading.Tasks.Extensions": "4.5.2"
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/Apache.Arrow.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.5.0": {},
+      "Microsoft.Data.Analysis/0.18.0": {
+        "dependencies": {
+          "Apache.Arrow": "2.0.0",
+          "Microsoft.ML.DataView": "1.6.0",
+          "System.Buffers": "4.5.0",
+          "System.Memory": "4.5.3",
+          "System.Runtime.CompilerServices.Unsafe": "4.7.0",
+          "System.Text.Encoding": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Data.Analysis.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "0.1800.21.36503"
+          }
+        }
+      },
+      "Microsoft.ML.DataView/1.6.0": {
+        "dependencies": {
+          "System.Collections.Immutable": "1.5.0",
+          "System.Memory": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.DataView.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.600.21.36503"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "Microsoft.NETCore.Targets/1.1.0": {},
+      "Microsoft.Spark/2.1.0": {
+        "dependencies": {
+          "Apache.Arrow": "2.0.0",
+          "Microsoft.CSharp": "4.5.0",
+          "Microsoft.Data.Analysis": "0.18.0",
+          "Newtonsoft.Json": "11.0.2",
+          "Razorvine.Pyrolite": "4.26.0",
+          "System.Memory": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Spark.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.100.22.10104"
+          }
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.2.21924"
+          }
+        }
+      },
+      "Razorvine.Pyrolite/4.26.0": {
+        "dependencies": {
+          "Razorvine.Serpent": "1.29.0",
+          "System.Memory": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Razorvine.Pyrolite.dll": {
+            "assemblyVersion": "4.26.0.0",
+            "fileVersion": "4.26.0.0"
+          }
+        }
+      },
+      "Razorvine.Serpent/1.29.0": {
+        "runtime": {
+          "lib/netstandard2.0/Razorvine.Serpent.dll": {
+            "assemblyVersion": "1.29.0.0",
+            "fileVersion": "1.29.0.0"
+          }
+        }
+      },
+      "System.Buffers/4.5.0": {},
+      "System.Collections.Immutable/1.5.0": {},
+      "System.Memory/4.5.3": {},
+      "System.Runtime/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0"
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.7.0": {},
+      "System.Text.Encoding/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.2": {}
+    }
+  },
+  "libraries": {
+    "FirstSparkProgram/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Apache.Arrow/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VR+F7g41WMJhr7WoZwwp05OrbYgM5Kmj3FwFXv1g0GgAYhEoCJz3L3qpllUWq9+X/rFKkFRZ2B8XcmsbaqGhrw==",
+      "path": "apache.arrow/2.0.0",
+      "hashPath": "apache.arrow.2.0.0.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
+      "path": "microsoft.csharp/4.5.0",
+      "hashPath": "microsoft.csharp.4.5.0.nupkg.sha512"
+    },
+    "Microsoft.Data.Analysis/0.18.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/qbFPAwaifF8kY0ugHMNm8mwDXtc/BqA1ADFySsMqxAcBXJ4tCOlTee0fwGzJJ92nUUrBGGkY/8r6nJ7qF4yJw==",
+      "path": "microsoft.data.analysis/0.18.0",
+      "hashPath": "microsoft.data.analysis.0.18.0.nupkg.sha512"
+    },
+    "Microsoft.ML.DataView/1.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o32XTTTledXjrX8e14habbzk+WJhj+Zgs1UV1OiTwO+rVUwnT4KSROri4L/5kuWdSxMCcTFb5sE1JnjHb+y1Gg==",
+      "path": "microsoft.ml.dataview/1.6.0",
+      "hashPath": "microsoft.ml.dataview.1.6.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Targets/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
+      "path": "microsoft.netcore.targets/1.1.0",
+      "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.Spark/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-i/bQ8MvmQFzTZW0R6AlWbLWI8Pxt9h+Wll8g5DOI0Tfofvfl0uDDrktBV6adxLiB8PD0MkIH/Rv7LCNpXnnJdQ==",
+      "path": "microsoft.spark/2.1.0",
+      "hashPath": "microsoft.spark.2.1.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "path": "newtonsoft.json/11.0.2",
+      "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
+    },
+    "Razorvine.Pyrolite/4.26.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FUFWXqrit2HSY6EJnPLCGQGPUepcnP0ZPyjkccxfwyq+D9YFB32msgBHRnh7L+YIVC46LFsVAULe+CzFd+VSkg==",
+      "path": "razorvine.pyrolite/4.26.0",
+      "hashPath": "razorvine.pyrolite.4.26.0.nupkg.sha512"
+    },
+    "Razorvine.Serpent/1.29.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uux2fp2C1uiyLptmtsUab9bb0TNuJI1vhSOv7XlFBCD7gN9MaJjYiT+6SSpCVnuEZWl2ccjeaz187zivIpI6IQ==",
+      "path": "razorvine.serpent/1.29.0",
+      "hashPath": "razorvine.serpent.1.29.0.nupkg.sha512"
+    },
+    "System.Buffers/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pL2ChpaRRWI/p4LXyy4RgeWlYF2sgfj/pnVMvBqwNFr5cXg7CXNnWZWxrOONLg8VGdFB8oB+EG2Qw4MLgTOe+A==",
+      "path": "system.buffers/4.5.0",
+      "hashPath": "system.buffers.4.5.0.nupkg.sha512"
+    },
+    "System.Collections.Immutable/1.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EXKiDFsChZW0RjrZ4FYHu9aW6+P4MCgEDCklsVseRfhoO0F+dXeMSsMRAlVXIo06kGJ/zv+2w1a2uc2+kxxSaQ==",
+      "path": "system.collections.immutable/1.5.0",
+      "hashPath": "system.collections.immutable.1.5.0.nupkg.sha512"
+    },
+    "System.Memory/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "path": "system.memory/4.5.3",
+      "hashPath": "system.memory.4.5.3.nupkg.sha512"
+    },
+    "System.Runtime/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JufQi0vPQ0xGnAczR13AUFglDyVYt4Kqnz1AZaiKZ5+GICq0/1MH/mO/eAJHt/mHW1zjKBJd7kV26SrxddAhiw==",
+      "path": "system.runtime/4.3.0",
+      "hashPath": "system.runtime.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IpU1lcHz8/09yDr9N+Juc7SCgNUz+RohkCQI+KsWKR67XxpFr8Z6c8t1iENCXZuRuNCc4HBwme/MDHNVCwyAKg==",
+      "path": "system.runtime.compilerservices.unsafe/4.7.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.7.0.nupkg.sha512"
+    },
+    "System.Text.Encoding/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BiIg+KWaSDOITze6jGQynxg64naAPtqGHBwDrLaCtixsa5bKiR8dpPOHA7ge3C0JJQizJE+sfkz1wV+BAKAYZw==",
+      "path": "system.text.encoding/4.3.0",
+      "hashPath": "system.text.encoding.4.3.0.nupkg.sha512"
+    },
+    "System.Threading.Tasks.Extensions/4.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BG/TNxDFv0svAzx8OiMXDlsHfGw623BZ8tCXw4YLhDFDvDhNUEV58jKYMGRnkbJNm7c3JNNJDiN7JBMzxRBR2w==",
+      "path": "system.threading.tasks.extensions/4.5.2",
+      "hashPath": "system.threading.tasks.extensions.4.5.2.nupkg.sha512"
+    }
+  }
+}
