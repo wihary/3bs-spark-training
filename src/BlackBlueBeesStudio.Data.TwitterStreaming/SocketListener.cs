@@ -1,18 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Net;
-using System.Net.Sockets;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace BlackBlueBeesStudio.Data.TwitterStreaming;
 
 using Microsoft.Extensions.Configuration;
 
-namespace BlackBlueBeesStudio.Data.TwitterStreaming;
+using System.ComponentModel;
+using System.Net;
+using System.Net.Sockets;
 
 internal class SocketListener
 {
+    public event EventHandler ClientConnected;
     private readonly IConfiguration config;
 
     private StreamWriter? _clientOut;
@@ -42,20 +38,20 @@ internal class SocketListener
 
             while (!worker.CancellationPending)
             {
-                Console.WriteLine($"The server is waiting on {ipAddress}:{this.config.GetValue("Port", 9000)}...");
+                Console.WriteLine($"The server is waiting for connection on {ipAddress}:{this.config.GetValue("Port", 9000)}...");
 
                 // as long as we're not pending a cancellation, let's keep accepting requests 
                 TcpClient attachedClient = server.AcceptTcpClient();
 
-                StreamReader clientIn = new StreamReader(attachedClient.GetStream());
-                _clientOut = new StreamWriter(attachedClient.GetStream());
-                _clientOut.AutoFlush = true;
-
-                string msg;
-                while ((msg = clientIn.ReadLine()) != null)
+                var clientIn = new StreamReader(attachedClient.GetStream());
+                _clientOut = new StreamWriter(attachedClient.GetStream())
                 {
-                    Console.WriteLine("The server received: {0}", msg);
-                }
+                    AutoFlush = true
+                };
+
+                Console.WriteLine($"New client is connected !");
+
+                this.OnClientConnected();
             }
         };
 
@@ -74,5 +70,10 @@ internal class SocketListener
         catch (Exception e)
         {
         }
+    }
+
+    private void OnClientConnected()
+    {
+        this.ClientConnected?.Invoke(this, EventArgs.Empty);
     }
 }
