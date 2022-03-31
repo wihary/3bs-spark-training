@@ -27,4 +27,7 @@ val ageCount = graph.vertices.filter { case (id, (name, age)) => age == 28 }.cou
 
 val count = graph.edges.filter(e => e.srcId > e.dstId).count
 
-println(ageCount)
+val population: RDD[String] =
+  graph.triplets.map(triplet => triplet.srcAttr._1 + " is linked to " + triplet.dstAttr._1)
+  
+population.collect.foreach(println(_))
